@@ -1,0 +1,225 @@
+@media (max-width: 1080px) {
+  @font-face {
+    font-family: Muller;
+    src: url(../../../fonts/muller.ttf);
+  }
+  @font-face {
+    font-family: Bebas;
+    src: url(../../../fonts/bebas.ttf);
+  }
+  .articleup {
+    display: block;
+    font-family: Muller;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  .articleuplink1,
+  .articleuplink2,
+  .articleuplink3 {
+    padding-left: 20px;
+    color: #dd8537;
+  }
+  .article {
+    display: block;
+    font-family: Muller;
+  }
+  .articletitle {
+    font-family: Bebas;
+  }
+  .pic1 {
+    width: 100%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  .pic2,
+  .pic3 {
+    width: 100%;
+  }
+
+  .morearticles {
+    background-color: #f3efea;
+  }
+  .heading {
+    font-family: Bebas;
+  }
+  .allarticleslink {
+    color: #dd8537;
+    margin-left: 50px;
+    font-family: Muller;
+  }
+  .block1,
+  .block2 {
+    font-family: Muller;
+    background-color: #f3efea;
+    color: black;
+    border-radius: 12px;
+    margin: 2px;
+    width: 98%;
+    border: 1px solid #e7e0da;
+    padding-bottom: 3vh;
+  }
+  .block1:hover,
+  .block2:hover {
+    display: block;
+    background-color: white;
+    color: #dd8537;
+    border-radius: 12px;
+    width: 98%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  .blockdata1:hover,
+  .blockdata2:hover {
+    color: gray;
+  }
+  .blocklabel1,
+  .blocklabel2 {
+    margin-left: 40px;
+    margin-right: 100px;
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  .blocktext1,
+  .blocktext2 {
+    color: black;
+    margin-left: 40px;
+    margin-right: 100px;
+  }
+  .blocklink1,
+  .blocklink2 {
+    color: #dd8537;
+    margin-right: 2vh;
+    text-decoration: underline;
+  }
+  .blocklinks1,
+  .blocklinks2 {
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 1081px) {
+  .home {
+    display: grid;
+    grid-area: "articleup articleup articleup" "article article article"
+      "morearticles morearticles morearticles";
+    grid-row: 100 100 100;
+  }
+
+  @font-face {
+    font-family: Muller;
+    src: url(../../../fonts/muller.ttf);
+  }
+  @font-face {
+    font-family: Bebas;
+    src: url(../../../fonts/bebas.ttf);
+  }
+  .pic1 {
+    width: 100vh;
+    height: 45vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  .pic2,
+  .pic3 {
+    width: 65vh;
+    height: 30vh;
+    padding-right: 2px;
+  }
+  .articleup {
+    margin-left: 20vh;
+    margin-top: 25px;
+    display: inline-flex;
+    font-family: Muller;
+  }
+  .articleuplink1,
+  .articleuplink2,
+  .articleuplink3 {
+    padding-left: 50px;
+    color: #dd8537;
+    text-decoration: underline;
+  }
+
+  .articletitle {
+    font-family: Bebas;
+  }
+  .article {
+    padding-right: 70vh;
+    padding-left: 20vh;
+    font-family: Muller;
+  }
+  .morearticles {
+    background-color: #f3efea;
+  }
+  .heading {
+    display: inline-flex;
+    font-family: Bebas;
+    padding-left: 20vh;
+    padding-top: 5vh;
+  }
+  .allarticleslink {
+    color: #dd8537;
+    margin-left: 50px;
+    font-family: Muller;
+  }
+
+  .blocks {
+    display: inline-flex;
+    padding-left: 15vh;
+    font-family: Muller;
+  }
+
+  .block1,
+  .block2 {
+    display: block;
+    background-color: #f3efea;
+    color: black;
+    border-radius: 12px;
+    margin: 5vh;
+    width: 65vh;
+    border: 1px solid #e7e0da;
+    padding-bottom: 3vh;
+  }
+  .block1:hover,
+  .block2:hover {
+    display: block;
+    background-color: white;
+    color: #dd8537;
+    border-radius: 5px;
+    width: 65vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  .blockdata1,
+  .blockdata2 {
+    color: black;
+    margin-top: 25px;
+    margin-left: 40px;
+  }
+  .blockdata1:hover,
+  .blockdata2:hover {
+    color: gray;
+  }
+
+  .blocklabel1,
+  .blocklabel2 {
+    margin-left: 40px;
+    margin-right: 80px;
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  .blocktext1,
+  .blocktext2 {
+    color: black;
+    margin-left: 40px;
+    margin-right: 100px;
+  }
+
+  .blocklink1,
+  .blocklink2 {
+    color: #dd8537;
+    margin-right: 50px;
+    text-decoration: underline;
+  }
+  .blocklinks1,
+  .blocklinks2 {
+    padding-top: 10px;
+  }
+}

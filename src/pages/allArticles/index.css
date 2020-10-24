@@ -1,0 +1,202 @@
+@media (min-width: 1501px) {
+  .allarticles {
+    display: grid;
+    grid-area: "homehead homehead homehead" "blocks blocks blocks"
+      "morearticles morearticles morearticles";
+    grid-row: 100 100 100;
+  }
+  @font-face {
+    font-family: Muller;
+    src: url(../../fonts/muller.ttf);
+  }
+  @font-face {
+    font-family: Bebas;
+    src: url(../../fonts/bebas.ttf);
+  }
+  .pic21,
+  .pic22 {
+    width: 65vh;
+    height: 30vh;
+    padding-right: 2px;
+  }
+  .homehead {
+    display: inline-flex;
+    font-family: Muller;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+
+  .title {
+    font-family: Bebas;
+    margin-right: 25%;
+    margin-left: 5vh;
+  }
+
+  .btn {
+    margin-left: 10px;
+    font-family: Muller;
+  }
+  .blockscontainer {
+    display: inline-flex;
+    margin-left: 10%;
+  }
+
+  .articleblock1,
+  .articleblock2 {
+    font-family: Muller;
+    display: block;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    margin: 5vh;
+    width: 65vh;
+    border: 1px solid #e7e0da;
+    padding-bottom: 3vh;
+  }
+  .articleblock1:hover,
+  .articleblock2:hover {
+    display: block;
+    background-color: white;
+    color: #dd8537;
+    border-radius: 5px;
+    width: 65vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  .articleblockdata1,
+  .articleblockdata2 {
+    color: black;
+    margin-top: 25px;
+    margin-left: 40px;
+  }
+  .articleblockdata1:hover,
+  .articleblockdata2:hover {
+    color: gray;
+  }
+
+  .articleblocklabel1,
+  .articleblocklabel2 {
+    margin-left: 40px;
+    margin-right: 80px;
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  .articleblocktext1,
+  .articleblocktext2 {
+    color: black;
+    margin-left: 40px;
+    margin-right: 100px;
+  }
+
+  .articleblocklink1,
+  .articleblocklink2 {
+    color: #dd8537;
+    margin-right: 50px;
+    text-decoration: underline;
+  }
+  .articleblocklinks1,
+  .articleblocklinks2 {
+    padding-top: 10px;
+  }
+}
+@media (max-width: 1500px) {
+  @font-face {
+    font-family: Muller;
+    src: url(../../fonts/muller.ttf);
+  }
+  @font-face {
+    font-family: Bebas;
+    src: url(../../fonts/bebas.ttf);
+  }
+
+  .homehead {
+    font-family: Muller;
+
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+  }
+
+  .title {
+    font-family: Bebas;
+    text-align: center;
+  }
+
+  .btn {
+    margin-left: 1%;
+    font-family: Muller;
+    display: inline-block;
+    width: 97%;
+  }
+
+  .article {
+    display: block;
+    font-family: Muller;
+  }
+  .articletitle {
+    font-family: Bebas;
+  }
+
+  .pic21,
+  .pic22 {
+    width: 100%;
+  }
+
+  .morearticles {
+    background-color: #f3efea;
+  }
+  .heading {
+    font-family: Bebas;
+  }
+  .allarticleslink {
+    color: #dd8537;
+    margin-left: 50px;
+    font-family: Muller;
+  }
+  .articleblock1,
+  .articleblock2 {
+    font-family: Muller;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    margin: 2px;
+    width: 98%;
+    border: 1px solid #e7e0da;
+    padding-bottom: 3vh;
+  }
+  .articleblock1:hover,
+  .articleblock2:hover {
+    display: block;
+    background-color: white;
+    color: #dd8537;
+    border-radius: 12px;
+    width: 98%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  .articleblockdata1:hover,
+  .articleblockdata2:hover {
+    color: gray;
+  }
+  .articleblocklabel1,
+  .articleblocklabel2 {
+    margin-left: 40px;
+    margin-right: 100px;
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  .articleblocktext1,
+  .articleblocktext2 {
+    color: black;
+    margin-left: 40px;
+    margin-right: 100px;
+  }
+  .articleblocklink1,
+  .articleblocklink2 {
+    color: #dd8537;
+    margin-right: 2vh;
+    text-decoration: underline;
+  }
+  .articleblocklinks1,
+  .articleblocklinks2 {
+    padding-top: 10px;
+  }
+}
